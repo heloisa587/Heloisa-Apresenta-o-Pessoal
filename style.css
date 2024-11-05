@@ -1,1 +1,15 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+}
 
+header {
+    border-bottom: solid 2px rgb(248, 0, 0);
+    padding: 20px;
+    font-size: 32px;
+    color: black;
+}
+h1{
+    font-size: 40px;
+}

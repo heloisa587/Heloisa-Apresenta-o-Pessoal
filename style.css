@@ -1,15 +1,41 @@
-body {
-    color: white;
-    background: black;
-    margin: 0px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
 }
 
-header {
-    border-bottom: solid 2px rgb(248, 0, 0);
+body {
+    background-color: #8B0000; /* Vermelho escuro */
+    color: #F5F5DC; /* Bege claro para contraste */
     padding: 20px;
-    font-size: 32px;
-    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-h1{
-    font-size: 40px;
+
+header, footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #4B0000; /* Vermelho mais escuro */
+    color: #F5F5DC;
+}
+
+h1, h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.musicas, .videos {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+audio, video {
+    margin: 10px;
+    background-color: #4B0000;
+    border: 2px solid #F5F5DC;
 }

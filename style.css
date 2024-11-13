@@ -39,3 +39,14 @@ audio, video {
     background-color: #4B0000;
     border: 2px solid #F5F5DC;
 }
+
+.footer {
+    background-color: #111;
+    color: #8B0000;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    position: sticky
+}

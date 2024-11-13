@@ -39,6 +39,10 @@ audio, video {
     background-color: #4B0000;
     border: 2px solid #F5F5DC;
 }
+.content {
+    padding: 20px;
+    text-align: center;
+}
 
 .footer {
     background-color: #111;
